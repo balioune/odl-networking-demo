@@ -13,7 +13,7 @@ curl -u admin:admin -H "Content-Type: application/json" -X PUT -d'
 
                   "ovsdb:option": "remote_ip",
 
-                  "ovsdb:value" : "10.10.14.11"
+                  "ovsdb:value" : "192.168.150.1"
 
           },
 
@@ -21,7 +21,7 @@ curl -u admin:admin -H "Content-Type: application/json" -X PUT -d'
 
               "ovsdb:option":"local_ip",
 
-              "ovsdb:value":"192.168.50.1"
+              "ovsdb:value":"192.168.155.2"
 
           },
 
